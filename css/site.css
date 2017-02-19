@@ -3,12 +3,52 @@ background-image: url('../img/JanAndChin.jpeg');
 }
 
 .portfolio-box {
-  max-width: 350px;
-  max-height: 350px;
+  position: relative;
+    float: left;
+    width:  350px;
+    height: 350px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 
 .img-responsive {
-max-width: 350px;
-max-height: 350px;
+position: relative;
+    float: left;
+    width:  350px;
+    height: 350px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 
+}
+hr {
+border-color: darkgoldenrod;
+}
+
+hr.light {
+    border-color: darkgoldenrod;
+}
+
+a {
+color: darkgoldenrod;
+}
+
+.bg-primary {
+background-color: lightpink;
+
+}
+
+.btn-primary{
+background-color: darkgoldenrod;
+
+}
+
+
+.navbar-default .navbar-header .navbar-brand {
+    color: darkgoldenrod;
+}
+
+.section-heading{
+    color:navy;
 }
