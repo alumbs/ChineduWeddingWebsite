@@ -1,3 +1,14 @@
 header {
 background-image: url('../img/JanAndChin.jpeg');
 }
+
+.portfolio-box {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.img-responsive {
+max-width: 350px;
+max-height: 350px;
+
+}
