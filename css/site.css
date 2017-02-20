@@ -7,6 +7,7 @@ background-image: url('../img/JanAndChin.jpeg');
     float: left;
     /*width:  350px;
     height: 350px;*/
+    max-height: 546px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -17,9 +18,11 @@ position: relative;
     float: left;
     /*width:  350px;
     height: 350px;*/
+    max-height: 547px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+    margin:0;
 
 }
 hr {
@@ -35,7 +38,7 @@ color: darkgoldenrod;
 }
 
 .bg-primary {
-background-color: rgb(242, 104, 112);
+background-color: rgb(225, 189, 139);
 
 }
 
@@ -50,5 +53,5 @@ background-color: darkgoldenrod;
 }
 
 .section-heading{
-    color:navy;
+    color:white;
 }
