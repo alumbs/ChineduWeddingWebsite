@@ -26,32 +26,42 @@ background-image: url('../img/JanAndChin.jpeg');
 
 }
 hr {
-border-color: darkgoldenrod;
+border-color: rgba(165,138,82,1);
 }
 
 hr.light {
-    border-color: darkgoldenrod;
+    border-color: rgba(165,138,82,1);
 }
 
 a {
-color: darkgoldenrod;
+color: rgba(165,138,82,0.66);
 }
 
 .bg-primary {
-background-color: rgb(225, 189, 139);
+background: rgb(208, 190, 142);
+ /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top,rgba(208,190,142,1),rgba(192,168,104,0.5), rgba(165,138,82,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom right,rgba(208,190,142,1),rgba(192,168,104,0.5),rgba(165,138,82,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom right,rgba(208,190,142,1),rgba(192,168,104,0.5),rgba(165,138,82,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom right, rgba(208,190,142,1),rgba(192,168,104,0.5) ,rgba(165,138,82,1)); /*Standard*/
+}
 
 }
 
 .btn-primary{
-background-color: darkgoldenrod;
+background-color: rgba(165,138,82,0.66);
 
+}
+
+.text-primary {
+    color: #12296f;
 }
 
 
 .navbar-default .navbar-header .navbar-brand {
-    color: darkgoldenrod;
+    color: rgba(165,138,82,0.66);
 }
 
 .section-heading{
-    color:white;
+    color:black;
 }
