@@ -227,6 +227,7 @@ header .header-content .header-content-inner p {
   position: relative;
   display: block;
   max-width: 650px;
+  max-height: 650px;
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
@@ -412,5 +413,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  -webkit-tap-highlight-color: #222222;
 }
