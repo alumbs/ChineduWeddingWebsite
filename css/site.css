@@ -5,8 +5,8 @@ background-image: url('../img/JanAndChin.jpeg');
 .portfolio-box {
   position: relative;
     float: left;
-    width:  350px;
-    height: 350px;
+    /*width:  350px;
+    height: 350px;*/
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -15,8 +15,8 @@ background-image: url('../img/JanAndChin.jpeg');
 .img-responsive {
 position: relative;
     float: left;
-    width:  350px;
-    height: 350px;
+    /*width:  350px;
+    height: 350px;*/
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
