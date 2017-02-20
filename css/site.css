@@ -11,14 +11,13 @@ background-image: url('../img/JanAndChin.jpeg');
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+    overflow:hidden;
 }
 
 .img-responsive {
-position: relative;
     float: left;
     /*width:  350px;
     height: 350px;*/
-    max-height: 547px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
